@@ -3,12 +3,13 @@
 </h1>
 
 <p align="center">
-   A simple structured JSON logger for Rust
+   A simple structured JSON logger for Rust.  
+   <i>This crate is a rename and republish of the original json_env_logger.  The author abandoned it.</i>
 </p>
 
 <div align="center">
-  <a alt="GitHub Actions" href="https://github.com/softprops/json-env-logger/actions">
-    <img src="https://github.com/softprops/json-env-logger/workflows/Main/badge.svg"/>
+  <a alt="GitHub Actions" href="https://github.com/zdannar/json-env-logger/actions">
+    <img src="https://github.com/zdannar/json-env-logger/workflows/Main/badge.svg"/>
   </a>
   <a alt="crates.io" href="https://crates.io/crates/json-env-logger">
     <img src="https://img.shields.io/crates/v/json_env_logger.svg?logo=rust"/>
@@ -16,7 +17,7 @@
   <a alt="docs.rs" href="http://docs.rs/json-env-logger">
     <img src="https://docs.rs/json_env_logger/badge.svg"/>
   </a>
-  <a alt="latest docs" href="https://softprops.github.io/json-env-logger">
+  <a alt="latest docs" href="https://zdannar.github.io/json-env-logger">
    <img src="https://img.shields.io/badge/docs-latest-green.svg"/>
   </a>
   <a alt="license" href="LICENSE">
@@ -32,7 +33,7 @@ Add the following to your `Cargo.toml` file
 
 ```toml
 [dependencies]
-json_env_logger = "0.1"
+json_env_logger2 = "0.2"
 ```
 
 ## usage
@@ -220,9 +221,9 @@ Some features available in `env_logger` `json_env_logger` doesn't use and those 
 <details><summary>I have more questions</summary>
 <p>
 
- That's technically not a question but ok. Ask away by [opening a GitHub issue](https://github.com/softprops/json-env-logger/issues/new). Thanks!
+ That's technically not a question but ok. Ask away by [opening a GitHub issue](https://github.com/zdannar/json-env-logger2/issues/new). Thanks!
 </p>
 </details>
 &nbsp;
 
-Doug Tangren (softprops) 2020
+zdannar 2022

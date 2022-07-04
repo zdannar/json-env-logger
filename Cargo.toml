@@ -1,6 +1,6 @@
 [package]
 name = "json_env_logger2"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["zdannar@gmail.com", "softprops <d.tangren@gmail.com>"]
 edition = "2021"
 description = "A structured JSON logger for Rust, original project by softprops was abandonded."
