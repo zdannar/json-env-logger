@@ -92,7 +92,7 @@ pub fn panic_hook() {
                         {
                             thread: thread,
                             location: format!("{}:{}", location.file(), location.line()).as_str(),
-                            backtrace: format!("{:?}", backtrace::Backtrace::new())
+                            backtrace: format!("{:?}", backtrace::Backtrace::new()).as_str(),
                         }
                     );
                 }
@@ -108,7 +108,7 @@ pub fn panic_hook() {
                         "panicked at '{}'", msg,
                         {
                             thread: thread,
-                            backtrace: format!("{:?}", backtrace::Backtrace::new())
+                            backtrace: format!("{:?}", backtrace::Backtrace::new()).as_str(),
                         }
                     );
                 }
